@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Ejemplos JSP</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+  
+
+ <script type="text/javascript" src="app.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<form class="aa">
+  <b><label class="lab1">Datos Personales</label></b><br>
+  <b><label class="lab" for="nombre">Nombre Completo:</label> </b><br>
+  <input size="40" class="campoTel" type="text" id="nombre"  placeholder="Escriba aqui" required><br><br>
+  <b><label class="lab3" for="TCasa" style="right: 150px;">Teléfono Fijo:</label></b><br>
+   <input size="40"  type="number" id="TCasa" maxlength="8" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"  placeholder="Escriba aqui" required><i>(8 dígitos)</i><br><br>
+   <b><label class="lab4" for="TCel">Teléfono Celular:</label></b> <br>
+  <input size="40"  type="number" id="TCel" maxlength="8" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"  placeholder="Escriba aqui" required><i>(8 dígitos)</i><br><br>
+  <b><label class="lab5" for="a">Fecha de Nacimiento:</label></b><br>
+   <input size="40"  type="date" id="a" placeholder="Escriba aqui" required><br><br>
+   <b><label class="lab" for="id">Identidad:</label></b> <br>
+  <input size="40"  type="text" id="ids" maxlength="15" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"  placeholder="Escriba aqui" required><i>(15 dígitos)</i><br><br>
+   <input size="40"  type="text" id="id" style="display:none;">
+</form>
+<button class="my-button" onclick="Add()" id="Add">Agregar</button>
+<button class="my-button" onclick="Update()" id="Update" style="display:none;">Actualizar</button>
+<table class="table" id="myTable">
+  <tr>
+                    <th> <b>Nombre Completo  </b> </th> 
+                    <th> <b>Teléfono Fijo</b></th>
+                    <th> <b>Teléfono Celular</b></th>
+                    <th> <b>Año de Nacimiento</b></th>
+                    <th> <b>Identidad</b></th>
+                    <th> <b>Fecha de Registrov</th>
+                    <th> <b>Acciones</b></th>
+  </tr>
+ 
+</table>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
+
+NOMBRE: LUIS FERNANDO MEJIA CRUZ
+PRUEBA TECNICA: BAC
+
+-->

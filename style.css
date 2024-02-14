@@ -1,0 +1,175 @@
+body{
+    color:rgb(210,210,210);
+     -webkit-text-fill-color: black;
+}   
+
+
+
+ table{
+    text-align: right;
+     border: 2px solid orange;
+left: 150px;
+position: relative;
+width: 950;
+height: 50px;
+color:skyblue;
+
+background: #ffffff ;
+color: #1b15ca;
+}
+table, td, th {
+    
+border: 2px solid rgb(255, 255, 255);
+    background: #1e66db;
+    color: #d8d7d7;
+ 
+}
+
+.lab1{
+    size: 50px;
+text-align: center;
+margin: 0 auto;
+position: relative;
+left: 50%;
+transform: translate(-50%);
+}
+/*
+.lab3{
+    text-align: left;
+    margin: 0 auto;
+    position: relative;
+    left: 13%;
+    transform: translate(-20%);
+    }
+    .lab4{
+        text-align: center;
+        margin: 0 auto;
+        position: relative;
+        left: 13%;
+        transform: translate(-50%);
+        }
+        */
+input[type='submit']{
+color:black;
+font-weight:bold; 
+background-color:orange;
+width:100px;
+height:25px;
+font-size:30px;
+}
+
+@font-face {
+    font-family: "handwriting";
+    src:
+      url("fonts/journal-webfont.woff2") format("woff2"),
+      url("fonts/journal-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  .my-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    left: 640px;
+    position: relative;
+    width: 1150;
+    height: 50px;
+  }
+  .my-button:hover {
+    background-color: #45a049;
+  }
+  .my-button:active {
+    background-color: #3e8e41;
+  }
+.aa {
+    box-shadow: 11px 4px 10px black inset;
+    box-shadow: 0px 0px 20px red inset, 0px 0px 25px blue;
+    width: 590px;
+    height: 398px;
+    left: 450px;
+    position: relative;
+    right: 350px;
+}
+.ag{
+    left: 540px;
+    position: relative;
+    width: 1150;
+    height: 50px;
+}
+
+  @font-face {
+    font-family: "typewriter";
+    src:
+      url("fonts/veteran_typewriter-webfont.woff2") format("woff2"),
+      url("fonts/veteran_typewriter-webfont.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  form {
+    position: relative;
+    left: 450px;
+    width: 1140px;
+    height: 398px;
+    margin: 10 auto;
+    padding: 5em;
+    box-sizing: border-box;
+    background: #fff url(background.jpg);
+  
+    /* creamos nuestra malla (grid) 
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 10em 1em 1em 1em; */
+  }
+#persona{
+    height: 50vh;
+    overflow: scroll;
+}
+
+#total{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+#lista {
+    width: 100%;
+    caption-side: bottom;
+    border-collapse: collapse;
+    vertical-align: top;
+    color: black;
+    }
+    
+    table * {
+    padding: 0.5rem 0.5rem;
+    border: 1px solid black
+    }
+    
+    table tr:nth-of-type(odd) {
+        background-color: white
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    /*
+Nombre: LUIS FERNANDO MEJIA CRUZ
+
+    */
